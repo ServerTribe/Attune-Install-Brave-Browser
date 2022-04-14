@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": null, 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "powershell", 
+    "key": "downloadinstallerforbravebrowserforwindows", 
+    "name": "Download Installer for Brave Browser for Windows", 
+    "osCredKey": "windowsuseradministrator", 
+    "serverKey": "bravebrowsernode", 
+    "successExitCode": 0, 
+    "timeout": null, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

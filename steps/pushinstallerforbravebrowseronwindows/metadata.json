@@ -1,0 +1,11 @@
+{
+    "archiveKey": "bravebrowserinstallerforwindows", 
+    "deployPath": "/c$/software/", 
+    "enabled": true, 
+    "key": "pushinstallerforbravebrowseronwindows", 
+    "name": "Push Installer for Brave Browser on Windows", 
+    "osCredKey": "windowsuseradministrator", 
+    "serverKey": "bravebrowsernode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

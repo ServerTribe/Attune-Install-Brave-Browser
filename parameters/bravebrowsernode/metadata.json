@@ -1,0 +1,6 @@
+{
+    "key": "bravebrowsernode", 
+    "name": "Brave Browser Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WindowsServer"
+}

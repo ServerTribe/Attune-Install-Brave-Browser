@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "installbravebrowseronwindows", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "downloadinstallerforbravebrowserforwindows"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "runinstallerforbravebrowseronwindows"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "cleanupinstallerforbravebrowseronwindows"
+        }
+    ], 
+    "name": "Install Brave Browser on Windows", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,33 @@
+# Script Variables
+$fileLocation = "c:\software\"
+$installer = "brave_installer-x64.exe"
+$software = "Brave"
+$installedApplication = "c:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+$arguments = "--install --silent --system-level"
+
+# Check if the software is already installed.
+$installed = (Test-Path $installedApplication)
+
+if($installed) 
+{
+	Write-Host "'$software' is already installed."
+}
+else 
+{
+# install software.
+	Write-Host "Running the '$software' installer..."
+    Start-Process -FilePath "$fileLocation$installer" `
+    -ArgumentList "$arguments" -Wait
+    
+# Confirm the software was installed.
+    $installed = (Test-Path $installedApplication)
+    
+    if($installed) 
+    {
+    	Write-Host "'$software' was successfully installed."
+    }
+    else 
+    {
+    	Write-Error "'$software' was not installed."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "installbravebrowseronwindowsoffline", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "pushinstallerforbravebrowseronwindows"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "runinstallerforbravebrowseronwindows"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "cleanupinstallerforbravebrowseronwindows"
+        }
+    ], 
+    "name": "Install Brave Browser on Windows - OFFLINE", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

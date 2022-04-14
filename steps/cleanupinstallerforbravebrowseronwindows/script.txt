@@ -1,0 +1,15 @@
+# Script Variables
+$fileLocation = "c:\software\"
+$installer = "brave_installer-x64.exe"
+$software = "Brave"
+
+# Cleanup installer.
+if (Test-Path $fileLocation$installer)
+{
+    Remove-Item $fileLocation$installer
+    Write-Host "Cleaned up '$software' installer."
+}
+else
+{
+    Write-Host "'$software' installer not found."
+}

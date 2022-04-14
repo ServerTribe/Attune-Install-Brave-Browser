@@ -1,0 +1,10 @@
+{
+    "fileName": "brave_installer-x64 (1).exe", 
+    "formatKey": "unknown", 
+    "key": "bravebrowserinstallerforwindows", 
+    "md5": "6b04589cc5f90df06d36f97f3eaaa02e", 
+    "name": "Brave Browser Installer for Windows", 
+    "remoteUri": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe", 
+    "size": 95555064, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}
